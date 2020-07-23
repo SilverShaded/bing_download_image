@@ -39,7 +39,6 @@ class bingImage(Thread):
         #print(datetime.datetime.now())
 
 if __name__ == '__main__':
-    print(datetime.datetime.now())
     bingImage().run()
 
 
