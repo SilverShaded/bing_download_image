@@ -1,1 +1,3 @@
-# bing_download_image
+# bing_download_image  
+  
+  `pip3 install -r requirements.txt`
