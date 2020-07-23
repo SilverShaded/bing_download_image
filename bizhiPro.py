@@ -36,7 +36,6 @@ class bingImage(Thread):
 
     def run(self):
         Threads = []
-        time = 0
         for _ in range(15):
             th = Thread(target=self.letGo)
             th.setDaemon(True)
