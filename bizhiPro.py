@@ -15,7 +15,7 @@ class bingImage(Thread):
             url =self.url_pre + str(page)
             html = requests.get(url=url+'i',headers=self.headers)
             bs = BeautifulSoup(html.text,'lxml')
-            get_tag = bs.findAll('img',{'class':'progressive__img progressive--is-loaded'})\
+            get_tag = bs.findAll('img',{'class':'progressive__img progressive--is-loaded'})
 
             get_h3 = bs.findAll('h3')
             time = 0
